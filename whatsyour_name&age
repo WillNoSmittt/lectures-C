@@ -1,1 +1,26 @@
+//include statement(s)
+#include <iostream>
+#include <string>
+//using namespace statement
+using namespace std;
+
+int main()
+{
+//variable declaration
+  int age;
+  string name;
+
+ cout << "Hello, What is your name? " << endl;
+  getline(cin, name);
+ cout << "It's nice to meet you, " << name << "!" << endl;
+ cout << "How old are you "<< name << "? " << endl;
+  cin >> age;
+  cout << "Okay, so you're also " << age << " years old? " << endl;
+
+//executable statements
+
+
+//return statement
+return 0;
+}
 
